@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//enum a { red, blue = 100, yellow };//枚举
+	//cout << red << endl;//0
+	//cout << blue << endl;//100
+	//cout << yellow << endl;//101
+	//int color = blue;
+	//color = 3 + yellow;//强制类型转换？
+	//cout << color << endl;
+	//int* p;
+	//p = (int *)0x0010fe;//是一个地址
+	//cout << *p << endl;
+	//使用new来分配内存
+	//int* p = new int;//告诉new需要适合储存int的内存
+	//cout << p;
+	int* arr[] = new int;
+	return 0;
+}
