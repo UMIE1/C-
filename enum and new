@@ -16,5 +16,10 @@ int main()
 	//int* p = new int;//告诉new需要适合储存int的内存
 	//cout << p;
 	int* arr[] = new int;
+	//动态数组
+	int* p = new int [12];
+	p[0] = 12;
+	cout << p[0]<<endl;
+	delete [] p;
 	return 0;
 }
